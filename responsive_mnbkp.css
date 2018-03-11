@@ -1,0 +1,36 @@
+@media screen and (min-width: 320px) and (max-width: 550px) {
+	.scores_loc_long, .team_long {
+	display: none;
+	}
+	.scores__table {
+		text-align: center;
+	}
+	.scores {
+		max-width: 100%;
+	}
+
+	.header__logo {
+		height: 48px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	h2, .hero_short {
+		line-height: 0.9em;
+	}
+	.hero article {
+		height: 45%;
+	}
+}
+
+@media screen and (min-width: 430px) {
+	.header__title {
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (min-width: 551px) and (max-width: 747px) {
+	.team_short, .scores_loc_short {
+		display: none;
+	}
+}
